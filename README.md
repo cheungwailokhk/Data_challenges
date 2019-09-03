@@ -36,6 +36,7 @@ Newsfeed<br/>
 
 #### Note
 * To save time, it is possible to set a random number of pages in the xml for processing.
+** random_pages = 100 (in the code)
 * It saves the bigram and unigram in csv when processing. One may see the example in the dir </example>
 * The bigram network graph of page index 1 - 100 is also attached in the example directory.
 
