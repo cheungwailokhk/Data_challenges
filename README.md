@@ -36,9 +36,8 @@ Newsfeed<br/>
 
 #### Note
 * To save time, it is possible to set a random number of pages in the xml for processing.
-* It saves the bigram and unigram in csv when processing.
+* It saves the bigram and unigram in csv when processing. One may see the example in the dir </example>
+* The bigram network graph of page index 1 - 100 is also attached in the example directory.
 
-
-#### Discussion
-After visualizing the data, we can see that there are a lot of date and category information. This is because of the description in the markdown links. In the data cleaning stage, we only removed Javascript, CSS, several HTML tags, markdown syntax and URLs, but not the description.
+After visualizing the data, we can see that there are a lot of date and category information. This is because of the description in the markdown links. In the data cleaning stage, we only removed Javascript, CSS, several HTML tags, markdown syntax and URLs, but not the description. Therefore, there exist many of technical terms.
 
