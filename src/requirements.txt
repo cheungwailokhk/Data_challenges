@@ -1,0 +1,10 @@
+lxml
+numpy
+pandas
+beautifulsoup4
+lxml
+Markdown2
+tinycss
+dukpy
+matplotlib
+networkx
