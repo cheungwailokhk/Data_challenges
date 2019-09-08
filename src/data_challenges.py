@@ -266,7 +266,6 @@ class Cralwer:
                     horizontalalignment='center', fontsize=8)
             
         plt.show()
-        
         return
 
     
@@ -285,8 +284,7 @@ class Cralwer:
         self.unigram_df = self.unigram_df.sort_values(by =['beginning_count',], ascending = False)
         top_10 = self.unigram_df["unigram"].tolist()[:10]
         freq = self.unigram_df["count"].tolist()[:10]
-        self.plot_bar_x(top_10, freq, "Unigram", "Frequency", "The 10 most frequent words words at the beginning of a sentence.")
-        
+        self.plot_bar_x(top_10, freq, "Unigram", "Frequency", "The 10 most frequent words words at the beginning of a sentence.")        
         return
    
 def main():
