@@ -31,10 +31,7 @@ class Cralwer:
             self.xml_path = xml_path
             self.tree = self.loadXML(xml_path)
             
-    def loadXML(self, url):     
-        '''
-        # creating tree element from given url 
-        '''
+    def loadXML(self, url):   
         try:            
             tree = etree.parse(url)
             return tree
@@ -43,14 +40,11 @@ class Cralwer:
             print( str(e))
 
     def xpath(self, tree, path):
-            '''
-            # creating tree element from given url 
-            '''
-            try:            
-                nodes = tree.xpath(path)
-                return nodes
-            except Exception as e:            
-                print("An exception occurred in xpath", str(e))
+        try:            
+            nodes = tree.xpath(path)
+            return nodes
+        except Exception as e:            
+            print("An exception occurred in xpath", str(e))
 
 
     def findURL(self, text):  
@@ -168,8 +162,6 @@ class Cralwer:
     
             
     def crawlData(self):
-        """funtion to crawl text entities from the xml     
-        """
         german_stopwords = get_stop_words("german")
         if self.tree:
             #Get all text entities
